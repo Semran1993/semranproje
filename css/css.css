@@ -1,0 +1,486 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+body {
+    font-family: 'Bree Serif', serif;
+}
+
+div#kapsayci {
+    width: auto;
+    position: relative;
+    background: linear-gradient(#01175da9, white);
+}
+
+
+/*-- bolum 1 baslangic navbar baslangic--*/
+
+.bolum1 {
+    height: 100%;
+    background-size: cover;
+    background-position: 80% 0;
+    position: relative;
+}
+
+.bolum1 .navi {
+    position: relative;
+    display: flex;
+    margin-left: 100px;
+}
+
+.navbar {
+    position: relative;
+    top: 0;
+    width: 95%;
+    font-weight: bolder;
+}
+
+@media only screen and (max-width:1200px) {
+    .navbar {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+    .bolum1 .baslik p {
+        color: #85630085;
+        font-size: color;
+    }
+    .bolum1 .navi {
+        margin: 0;
+        padding: 0;
+    }
+    .bolum1 .baslik {
+        padding: 0px;
+        display: flex;
+        margin: 0;
+    }
+    .bolum1 .navi samp.sa {
+        display: none;
+    }
+}
+
+.bolum1 .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.bolum1 .navbar li {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.bolum1 .navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: block;
+    padding: 5;
+}
+
+.bolum1 .navbar .navbar-nav .active>a,
+.bolum1 .navbar .navbar-nav a:hover {
+    color: #ffc107 !important;
+}
+
+.bolum1 .baslik {
+    color: aliceblue;
+    display: fixed !important;
+    align-items: center!important;
+}
+
+.bolum1 .baslik i {
+    display: flex;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #ffffff;
+}
+
+.bolum1 .baslik i:hover {
+    color: #ffc107
+}
+
+.bolum1 .baslik a:hover {
+    color: #ffc107
+}
+
+.baslik .slayd img {
+    width: 90%;
+    height: 70%;
+    border-radius: 25px;
+    border: #00446b;
+    margin: auto;
+}
+
+.baslik h2 {
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+/*-- bolum 1 son--*/
+
+
+/*-- bolum 2 baslangic navbar baslangic--*/
+
+.bolum2 {
+    display: flex;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    padding-top: 100px;
+    background-position: 100%;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding-bottom: 200px;
+}
+
+.bolum2 .ozgecmis {
+    display: flex;
+}
+
+.bolum2 .ozgecmis a {
+    display: block;
+    float: left;
+    position: relative;
+    margin: 10px auto;
+    text-decoration: none;
+    width: 150px;
+    height: 40px;
+    background-color: #007bff;
+    text-align: center;
+    font-size: 15px;
+    color: white;
+}
+
+.bolum2 .ozgecmis a:hover {
+    background-color: #0179c8;
+}
+
+.bolum2 h1 {
+    display: block;
+    font-size: 50px;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.bolum2 .row .egtim {
+    display: block;
+    position: relative;
+    float: left;
+    padding: 15px;
+    margin: 5px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+}
+
+.bolum2 .row .egtim p {
+    display: flex;
+    position: relative;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.bolum2 .row .faiz h2 {
+    display: flex;
+    padding-left: 5px;
+    padding-bottom: 3px;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    color: rgb(0, 0, 0);
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-top: 25px;
+}
+
+.bolum2 .ileri1 {
+    width: 60%;
+    animation-name: ileri;
+    animation-duration: 4s;
+    height: 50px;
+    border-radius: 5px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+}
+
+@keyframes ileri {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 70%;
+    }
+}
+
+.bolum2 .ileri2 {
+    width: 60%;
+    animation-name: ileri2;
+    animation-duration: 4s;
+    height: 50px;
+    border-radius: 5px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+}
+
+@keyframes ileri2 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 75%;
+    }
+}
+
+.bolum2 .ileri3 {
+    width: 60%;
+    animation-name: ileri3;
+    animation-duration: 4s;
+    height: 50px;
+    border-radius: 5px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+}
+
+@keyframes ileri3 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+.bolum2 .ileri4 {
+    width: 60%;
+    animation-name: ileri4;
+    animation-duration: 4s;
+    height: 50px;
+    border-radius: 5px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+}
+
+@keyframes ileri4 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 80%;
+    }
+}
+
+
+/*-- bolum 2 son--*/
+
+
+/*-- bolum 3 baslangic --*/
+
+.bolum3 {
+    display: flex;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    padding-bottom: 100px;
+}
+
+.bolum3 .row .card {
+    display: block;
+    padding: 10px;
+    flex-wrap: wrap;
+    text-align: center;
+    box-shadow: 0px 0px 70px rgba(138, 159, 255, 0.3);
+    margin: 5px;
+}
+
+.bolum3 .row {
+    display: flex;
+    text-align: center;
+}
+
+.bolum3 .row .card .foto {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+}
+
+.bolum3 .row .card .foto img {
+    object-fit: cover;
+    transition: all 1s ease-in-out;
+    z-index: 5;
+    height: 200px;
+    width: 350px;
+}
+
+.bolum3 .row .card img:hover {
+    height: 210px;
+}
+
+.bolum3 .baslik h2 {
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.bolum3 .baslik p {
+    display: relative;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    font-weight: bolder;
+    font-family: 'Bree Serif', serif;
+    box-sizing: border-box;
+}
+
+
+/*-- bolum 3 son--*/
+
+
+/*-- bolum 4 baslangic navbar baslangic--*/
+
+.bolum4 {
+    display: block;
+    height: 100%;
+    background-size: cover;
+    position: relative;
+    padding-top: 150px;
+}
+
+.bolum4 h1 {
+    display: block;
+    text-align: center;
+    padding-left: 5px;
+    padding-bottom: 30px;
+    margin: auto;
+    font-weight: 800;
+    font-family: 'Bree Serif', serif;
+    color: rgb(0, 0, 0);
+}
+
+.bolum4 .deney {
+    display: block;
+    position: relative;
+    text-align: center;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+    margin: 5px;
+}
+
+.bolum4 .deney p {
+    display: block;
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+}
+
+
+/*-- bolum 4 son--*/
+
+
+/*-- bolum 5 baslangic navbar baslangic--*/
+
+.bolum5 {
+    display: flex;
+    position: relative;
+    background: linear-gradient(white, black);
+    background-size: cover;
+    background-position: 80% 0;
+    flex-wrap: wrap;
+    flex-direction: column;
+    padding: 120px 0;
+}
+
+footer ul.sosyalmedya {
+    margin-top: 20px;
+    list-style: none;
+    float: left;
+}
+
+footer ul.sosyalmedya li {
+    float: left;
+    margin-left: 10px;
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    text-align: center;
+    border-radius: 100%;
+    background-color: #171717;
+}
+
+footer ul.sosyalmedya li a {
+    display: block;
+    font-size: 25px;
+    color: white;
+}
+
+footer ul.sosyalmedya {
+    margin-top: 40px;
+    list-style: none;
+}
+
+footer .sosyalmedya h2 {
+    display: block;
+    text-align: right;
+    font-size: 30px;
+    color: white;
+    margin-top: 60px;
+}
+
+footer .iletisim i {
+    color: white;
+    float: left;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+footer ul.iletisim {
+    margin-top: 40px;
+    list-style: none;
+    margin-top: 40px;
+}
+
+footer .iletisim h2 {
+    display: block;
+    text-align: left;
+    font-size: 30px;
+    color: white;
+    margin-top: 100px;
+}
+
+footer p {
+    display: block;
+    text-align: left;
+    font-size: 20px;
+    color: white;
+}
+
+footer i:hover {
+    color: #00446b
+}
+
+.bolum2,
+.bolum3,
+.bolum4,
+.bolum5,
+footer {
+    opacity: 0;
+}

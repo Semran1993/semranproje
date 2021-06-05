@@ -1,0 +1,350 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Bree Serif', serif;
+    ;
+}
+
+.wrapper {
+    width: 100%;
+    height: 100%;
+    display: inline;
+    position: absolute;
+}
+
+
+/*HEDIR BASLANGIC */
+
+header .bas {
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: brown;
+}
+
+header .row .sosyal {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+}
+
+header .row .sosyal li {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+}
+
+header .row .sosyal li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+
+header .row .sosyal li a:hover i {
+    color: #f50d0d;
+}
+
+header .row .sosyal li a i {
+    margin-top: 15px;
+}
+
+header .gorsel {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    align-content: center;
+}
+
+header .gorsel .logo img {
+    display: flex;
+    width: 160px;
+    height: 100px;
+    color: brown;
+    margin-top: 15px;
+}
+
+header .gorsel a {
+    text-decoration: none;
+    list-style-type: none;
+    display: block;
+    color: brown;
+    font-size: 40px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 800;
+    margin-top: 5px;
+}
+
+header .gorsel p {
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+    color: brown;
+    font-size: 20px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+}
+
+
+/*HEADER BITIS */
+
+
+/*NAV BAR BASLANGIC */
+
+.bolum2 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+.bolum2 nav {
+    background-color: brown;
+    background-attachment: fixed;
+}
+
+.bolum2 nav ul li a {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+}
+
+.bolum2 nav ul li a:hover {
+    color: rgb(253, 152, 0);
+}
+
+.bolum2 nav ul li div a {
+    color: brown;
+}
+
+.bolum2 nav span i {
+    color: white;
+    font-size: 30px;
+}
+
+
+/*---bolum 3 slayd */
+
+.bolum3 {
+    height: 100%;
+    width: 100%;
+}
+
+.bolum3 img {
+
+    background-size: contain;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+
+/*---hakkimizdan  bolmu */
+.haikimkizda{
+    width: 100%;
+    height: 100%;
+}
+.haikimkizda .row div{
+    display:flex;
+    
+}
+
+.haikimkizda h1{
+    display: flex;
+    position: relative;
+    background-color: brown;
+    color: white;
+    padding: 5px 30px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.haikimkizda ul{
+    position: relative;
+    list-style-type: none;
+}
+.haikimkizda ul li{
+    list-style-type: none;
+    float: left;
+    display: flex;
+    position: relative;
+    margin-top:6px ;
+    padding-top: 10px ;
+    margin-left: 6px;
+    border-radius: 5px solid brown;
+    
+}
+.haikimkizda ul li a{
+    display: inline-block;
+    text-decoration: none;
+    font-size: 15px;
+    color:#22222275;
+    display: block;
+}
+.haikimkizda ul li a i{
+    text-decoration: none;
+    font-size: 15px;
+    color:brown;
+    margin: 5px;
+    display: inline-block;
+    
+}
+.haikimkizda .ekstra{
+    border: 0.5px solid #3131315d;
+    background-color: #9b9b9b0e;
+   
+    margin-top: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0,0,0,.3);
+
+}
+.haikimkizda .yazi p{
+    margin:25px;
+    font-size: 15px;
+    font-weight: 300;
+}
+.haikimkizda .yazi1{
+    display:flex;
+    align-items: baseline;
+}
+.haikimkizda .ekstra ul{
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.haikimkizda .ekstra ul li{
+    list-style-type: none;
+    float: none;
+    display: block;
+    width: 325px;
+    margin: 0;
+    padding: 0;
+
+
+}
+.haikimkizda .ekstra ul .bas a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    padding:0 ;
+    padding-top: 50px;
+    margin: 5px;
+}
+.haikimkizda .ekstra ul li a{
+    display: block;
+    position: relative;
+    text-decoration: none;
+    margin: 5px;
+    }
+    
+.haikimkizda .ekstra h4{
+    position: absolute;
+    font-size: 20px;
+    font-weight: 400;
+    color: #2e2e2e5e;
+    margin: 15px;
+
+}
+
+/*---bolum 5 */
+
+
+
+footer {
+    height: 100%;
+    width: 100%;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+footer .row {
+    display: flex;
+    margin-top: 60px;
+    
+}
+
+footer .row h3 {
+    text-align: center;
+    color: white;
+    margin: 25px;
+}
+
+footer .row p {
+    color: white;
+}
+
+footer .row .sosyal {
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    width: 100%;
+    background-color: brown;
+}
+
+footer .row .sosyal li {
+    list-style-type: none;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    display: block;
+}
+
+footer .row .sosyal li a {
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+}
+
+footer .row .sosyal li a:hover i {
+    color: #f50d0d;
+}
+
+footer .row .sosyal li a i {
+    margin-top: 15px;
+}
+.bolum6 label {
+    color: white;
+    font-size: 15px;
+    margin-left: 45px;
+}
+
+.bolum h1 {
+    color: white;
+    font-size: 35px;
+    margin: 25px;
+}
+
+.bolum input {
+    margin-left: 45px;
+}
+
+.bolum button {
+    margin-top: 8px;
+    margin-bottom: 90px;
+    margin-left: 45px;
+}
+
+.bolum button a {
+    text-decoration: none;
+    font-size: 16px;
+    color: black;
+    display: block;
+}
+
+.bolum button:hover {
+    background-color: #fb6666;
+}

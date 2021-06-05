@@ -1,0 +1,1020 @@
+@charset "utf-8";
+/* CSS Document */
+html{
+    scroll-behavior: smooth;
+}
+body {
+    /*-- font-family: 'Poppins', sans-serif;
+font-family: 'Ubuntu', sans-serif; --*/
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+/*-- bolum 1 baslangic navbar baslangic--*/
+
+.bolum1 {
+    height: 100%;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+
+.bolum1 .menu {
+    background-color: #111;
+    position: fixed;
+    z-index: 5;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.bolum1 .navi {
+    position: relative;
+    display: flex;
+    margin-right: 50px;
+    margin-left: 20px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+}
+
+.navbar {
+    position: relative;
+    width: 90%;
+    font-weight: bolder;
+}
+
+.bolum1 .navbar-brand {
+    font-size: 25px;
+    font-weight: 700;
+    text-decoration: none;
+    margin-left: 80px;
+}
+
+.bolum1 .navbar li {
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+.bolum1 .navbar li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(255, 255, 255) !important;
+    font-weight: 400;
+    letter-spacing: 1px;
+    transition: 0.5s;
+    display: block;
+    padding: 5;
+}
+
+.bolum1 .navbar .navbar-nav .active>a, .bolum1 .navbar .navbar-nav a:hover {
+    color: red !important;
+}
+
+.bolum1 .baslik {
+    color: aliceblue;
+    display: fixed !important;
+    align-items: center!important;
+}
+
+.bolum1 .baslik i {
+    display: flex;
+    margin-top: 5px;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 70px;
+}
+
+.bolum1 .baslik i:hover {
+    color: red;
+}
+
+.bolum1 .baslik a:hover {
+    color: red;
+}
+
+.baslik .slayd img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    object-fit: cover;
+    padding-top: 60px;
+}
+
+.baslik h2 {
+    font-size: 35px;
+    font-family: 'Bree Serif', serif;
+}
+
+
+
+/*-- bolum 1 son--*/
+.scroll-up-btn {
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: red;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    z-index: 5;
+    font-size: 30px;
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+    -moz-border-radius:6px ;
+    -ms-border-radius:6px ;
+    -o-border-radius:6px ;
+    cursor: pointer;
+    opacity: 0 ;
+    transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+.scroll-up-btn.bas{
+    opacity: 1 ;
+    position: fixed;
+    height: 45px;
+    width: 42px;
+    background: red;
+    right: 30px;
+    bottom: 30px;
+    text-align: center;
+    line-height: 45px;
+    z-index: 5;
+    font-size: 30px;
+    border-radius:6px ;
+    -webkit-border-radius:6px ;
+   
+}
+.group{display: flex;
+    position:fixed;
+    right:40px;
+    top:20px;
+    z-index: 999;
+    font-size: 30px;   
+}
+.group a{
+color: #fff ;
+font-size: 15px;
+
+}
+.group a:hover{
+    color:red ;
+}
+
+/*-- bolum 2 baslangic ana sayfa--*/
+
+#anaseyfe {
+    display: flex;
+    background: url("../gorsel/bas.jpg") no-repeat;
+    background-size: cover;
+    height: 100vh;
+    color: #ffff;
+    min-height: 500px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.max-width {
+    padding: 0 80px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+#anaseyfe .max-width {
+    margin: auto 0 auto 40px;
+}
+
+#anaseyfe .ana-yazi a {
+    text-decoration: none;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    color: #ffff;
+    font-size: 25px;
+    transition: all 0.4s ease;
+    padding: 10px 25px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+}
+
+#anaseyfe .ana-yazi a:hover {
+    background: none;
+    color: red;
+}
+
+#anaseyfe .ana-yazi .yazi-1 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-left: -3;
+}
+
+#anaseyfe .ana-yazi .yazi-2 {
+    font-size: 65px;
+    font-weight: 600;
+}
+
+#anaseyfe .ana-yazi .yazi-3 {
+    font-size: 40px;
+    margin: 6px 0;
+    font-weight: 300;
+}
+
+#anaseyfe .ana-yazi .yazi-3 span {
+    color: red;
+    font-weight: 500;
+}
+
+/*-- bolum 3 baslangic hakkımda--*/
+#anaseyfe, #ozhakkimda, #projeler,#deneyim, footer {
+    font-family: 'Poppins', sans-serif;
+
+}
+section, footer  {
+    padding: 100px 0;
+}section .baslik , footer .baslik {
+    font-family: 'Ubuntu', sans-serif;
+   
+}
+
+section .max-width .baslik, footer  .max-width .baslik{
+    position: relative;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 60px;
+    padding-bottom: 20px;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+section .max-width .baslik::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 210px;
+    height: 4px;
+    background: #111;
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+section .max-width .baslik::after  {
+    content: "Mən kiməm";
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    padding: 5px;
+    color: red;
+    font-size: 20px;
+    background: rgb(255, 255, 255);
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+#ozhakkimda .max-width .baslik::after {
+    content: "Mən Kiməm";
+}
+
+#ozhakkimda .max-width .sola .sol img {
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+}
+
+#ozhakkimda .max-width .sola {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+#ozhakkimda .max-width .sola .sag {
+    width: 45%;
+    
+}
+
+#ozhakkimda .max-width .sola .sag {
+    width: 55%;
+}
+
+#ozhakkimda .max-width .sola .sag .yazi {
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+#ozhakkimda .max-width .sola .sag .yazi span {
+    color: red;
+}
+
+#ozhakkimda .max-width .sola .sag p {
+    text-align: justify;
+}
+
+#ozhakkimda .max-width .sola .sag a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background-color: red;
+    border-radius: 10px;
+    display: inline-block;
+    color: #ffff;
+    font-size: 15px;
+    padding: 8px 18px;
+    margin-top: 20px;
+    border-radius: 20px;
+    border: 2px solid red;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    box-shadow: 0px 0px 70px rgba(255, 0, 0, 0.3);
+}
+
+#ozhakkimda .max-width .sola .sag a:hover {
+    background: none;
+    color: red;
+}
+
+/*-- bolum 2 baslangic Projeler--*/
+#projeler {
+    background: #111;
+    color: #fff;
+}
+#projeler .max-width .proje{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#projeler .max-width .baslik::after {
+    background: #111;
+    content: "Əsərlərim";
+}
+
+#projeler .max-width .baslik::before {
+    background: rgb(255, 255, 255);
+    content: "";
+}
+#projeler .max-width .proje .card {
+    width: calc( 33% - 15px);
+    background: rgb(43, 43, 43);
+    text-align: center;
+    border-radius:5px    ;
+    -webkit-border-radius:5px    ;
+    -moz-border-radius:5px    ;
+    -ms-border-radius:5px    ;
+    -o-border-radius:5px    ;
+    padding:15px 20px;
+    cursor: pointer;
+    transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    
+  
+}
+#projeler .max-width .proje .card:hover{
+background:red;
+}
+#projeler .max-width .proje .card .kutu p{
+    text-align:center;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size:  20px;
+}
+
+#projeler .max-width .proje .card .kutu img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    z-index: 1;
+     transition:all 0.5s ease;
+    -webkit-transition:all 0.5s ease;
+    -moz-transition:all 0.5s ease;
+    -ms-transition:all 0.5s ease;
+    -o-transition:all 0.5s ease;
+    
+}
+
+#projeler .max-width .proje .card .kutu:hover img {
+   transform: scale(1.07);
+   -webkit-transform: scale(1.07);
+   -moz-transform: scale(1.07);
+   -ms-transform: scale(1.07);
+   -o-transform: scale(1.07);
+}
+#projeler .max-width .proje .card .kutu:hover a {
+    border: 2px solid #fff;
+ }
+#projeler .max-width .proje .card .kutu a {
+    text-decoration: none;
+    transition: all 0.4s ease;
+    background-color: red;
+    border-radius: 10px;
+    margin: 15px 0;
+    display: inline-block;
+    color: #ffff;
+    font-size: 15px;
+    padding: 8px 18px;
+    border-radius: 20px;
+    border: 2px solid red;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    -ms-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    text-align: center;
+}
+
+#projeler .max-width .proje .card .kutu a:hover {
+ 
+    color: red;
+    border: 2px solid #fff;
+    background-color: #ffff;
+    
+}
+
+/*-- bolum 3 baslangic deneyim--*/
+
+#deneyim .max-width .baslik::after {
+    content: "Biliklərim";
+}
+
+#deneyim .max-width  .deney{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#deneyim .max-width .deney .bir{
+    width: calc(50% - 40px);
+
+}
+#deneyim .max-width .deney .bir .deneyimler{
+    margin-bottom: 15px;
+
+}
+#deneyim .max-width .deney .bir .deneyimler .bilgi{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+#deneyim .max-width .deney .bir .deneyimler .bilgi span{
+font-weight: 500;
+font-size:  20px;
+}
+#deneyim .max-width .deney .bir .deneyimler  .gosterge {
+    height: 10px;
+    width:100%;
+    background: rgb(83, 83, 83);
+    position: relative;
+
+}
+#deneyim .max-width .deney .bir .deneyimler  .gosterge::before {
+ content: '';
+ position: absolute;
+ height: 100%;
+ width: 90%;
+ left: 0;
+ top: 0;
+ background:red;
+}
+
+#deneyim .max-width .deney .bir .deneyimler  .photoshop::before {
+    width: 95%;
+    animation-name: ileri1;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri1 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 95%;
+    }}
+   #deneyim .max-width .deney .bir .deneyimler  .premier::before {
+    width: 75%;
+    animation-name: ileri2;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri2 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 75%;
+    }}
+   #deneyim .max-width .deney .bir .deneyimler  .illustrator::before {
+    width: 60%;
+    animation-name: ileri3;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri3 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 60%;
+    }}
+   #deneyim .max-width .deney .bir .deneyimler  .office::before {
+    width: 60%;
+    animation-name: ileri4;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri4 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 60%;
+    }}
+   #deneyim .max-width .deney .bir .deneyimler  .html::before {
+    width: 90%;
+    animation-name: ileri5;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri5 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 90%;
+    }}
+   #deneyim .max-width .deney .bir .deneyimler  .css::before {
+    width: 80%;
+    animation-name: ileri6;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri6 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 80%;
+    }
+}
+   #deneyim .max-width .deney .bir .deneyimler  .js::before {
+    width: 50%;
+    animation-name: ileri7;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri7 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 50%;
+    }
+}
+   #deneyim .max-width .deney .bir .deneyimler  .bootstrap::before {
+    width: 90%;
+    animation-name: ileri8;
+    animation-duration: 4s;
+    border-radius: 1px;
+    animation-timing-function: ease-in-out;
+    animation-delay: 1s;
+    animation-fill-mode: forwards!important;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    -ms-border-radius: 1px;
+    -o-border-radius: 1px;
+}
+   @keyframes ileri8 {
+    from {
+        width: 1%;
+    }
+    to {
+        width: 90%;
+    }
+}
+
+
+
+
+
+
+#iletisim {
+    background:#111;
+
+}
+
+#iletisim .max-width  .deney{
+
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+#iletisim .max-width .deney .bir{
+    width: calc(50% - 40px);
+    margin-top: 20px;
+
+}
+#iletisim .max-width .deney .bir .deneyimler{
+    margin-bottom: 15px;
+
+}
+#iletisim .max-width .deney .bir .deneyimler .bilgi{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+
+   
+}
+#iletisim .max-width .deney .bir .baslig2{
+font-weight: 700;
+font-size:  30px;
+color: #fff;
+}
+#iletisim .max-width .deney .sol {
+    text-align: right;
+   }
+    
+   #iletisim .max-width .deney .sol .bilgi a{
+    margin: 15px;
+    display: inline-block;
+    border-radius:50%;
+    text-decoration: none;
+    color: #fff;
+    
+   }
+#iletisim .max-width .deney .sol .bilgi i  {
+    display: block;
+  font-size:30px;
+    text-align: center;
+    margin:auto;
+    position: relative;
+    color: #fff;
+    
+}
+#iletisim .max-width .deney .sag .bilgi samp{
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+#iletisim .max-width .deney .sol .bilgi i:hover{
+   color:#1877f2;
+}
+#iletisim .max-width .deney .sol .bilgi .fa-instagram:hover{
+    color:#8a3ab9;
+}
+#iletisim .max-width .deney .sol .bilgi .fa-youtube:hover{
+    color:#FF0000;
+ }#iletisim .max-width .deney .sol .bilgi .fa-twitter:hover{
+    color:#1da1f2;
+ }
+#iletisim .max-width .baslik{
+    color:#fff;
+}
+
+#iletisim .max-width .baslik::before{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 210px;
+    height: 4px;
+    background: rgb(255, 255, 255);
+    transform: translatex(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+#iletisim .max-width .baslik::after {
+    content: "Mənə Yaz";
+    position: absolute;
+    bottom: -13px;
+    left: 50%;
+    padding: 5px;
+    color: red;
+    font-size: 20px;
+    background: #111;
+    transform: translatex(-50%);
+   
+}
+footer .max-width .gizli{
+    text-align: end;
+    display: flex;
+    font-size: 15px;
+    margin-top: 50px;
+    top: 0;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:700px) {
+    #anaseyfe .ana-yazi .yazi-1 {
+        font-size: 20px;
+        font-weight: 300;
+        margin-left: -3;
+    }
+    #anaseyfe .ana-yazi .yazi-2 {
+        font-size: 45px;
+        font-weight: 600;
+    }
+    #anaseyfe .ana-yazi .yazi-3 {
+        font-size: 25px;
+        margin: 6px 0;
+        font-weight: 300;
+    }
+    .max-width {
+        padding: 0 40px;
+    }
+    #anaseyfe .ana-yazi a {
+        padding: 1px 4px;
+        background-color: red;
+        border-radius: 10px;
+    }
+    #anaseyfe .ana-yazi a {
+        font-size: 20px;
+        padding: 7px 15px;
+    }
+    
+}
+
+@media(max-width:1120px) {
+    #ozhakkimda .max-width .sola .esitle {
+        width: 50%;
+    }
+    #anaseyfe .ana-yazi .yazi-1 {
+        font-size: 22px;
+        font-weight: 300;
+        margin-left: -3;
+    }
+    #anaseyfe .ana-yazi .yazi-2 {
+        font-size: 35px;
+        font-weight: 600;
+    }
+    #anaseyfe .ana-yazi .yazi-3 {
+        font-size: 30px;
+        margin: 6px 0;
+        font-weight: 300;
+    }
+    .max-width {
+        padding: 0 20px;
+    }
+    #anaseyfe .ana-yazi a {
+        padding: 1px 4px;
+        background-color: red;
+        border-radius: 10px;
+        font-size: 15px;
+        padding: 7px 15px;
+    }
+    #ozhakkimda .max-width .sola .esitle {
+        width: 50%;
+    }
+    #ozhakkimda .max-width .sola .sol img {
+        width: 350px;
+        height: 350px;
+    }
+    #ozhakkimda .max-width .sola .sag {
+        padding-right: 25px;
+    }
+}
+
+@media(max-width:850px) {
+    .max-width {
+        max-width: 800px;
+    }
+    #ozhakkimda .max-width .sola .esitle {
+        width: 50%;
+    }
+    #ozhakkimda .max-width .sola .sol {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto 60px;
+    }
+    #ozhakkimda .max-width .sola .sag {
+        flex: 100%;
+        padding: 0 25px;
+    }
+    #projeler .max-width .proje .card {
+        width: calc( 50% - 20px);
+        
+       margin-bottom: 25px;
+      
+    }
+    .scroll-up-btn {
+        height: 32px;
+        width: 32px;
+    
+    }
+
+    .navbar {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+    }
+    .bolum1 .navi {
+        margin: 0;
+        padding: 0;
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+        display: flex;
+    }
+    .bolum1 .navi samp.sa {
+        display: none;
+    }
+    .bolum1 .navbar li {
+        margin-left: 8px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bolum1 .navbar li a:hover {
+        display: block;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: rgba(63, 62, 62, 0.445);
+    }
+    .bolum1 .navbar-brand {
+        margin-left: 15px;
+    }
+}
+@media  (max-width:1200px){
+
+    .bolum1 .navi samp.sa {
+        display: none;
+    }
+}
+@media  (max-width:992px) {
+    .group{display: flex;
+        position:absolute;
+        right:40px;
+        top:70px;
+        z-index: 0;
+        font-size: 30px;   
+    }
+    .group a{
+        color:red;
+        font-weight: 900;
+        text-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+    }
+    .navbar {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+    }
+    .bolum1 .navi {
+        margin: 0;
+        padding: 0;
+        box-shadow: 0px 0px 70px rgba(0, 0, 0, 0.3);
+        display: flex;
+    }
+    .bolum1 .navi samp.sa {
+        display:inline-block;
+    }
+    .bolum1 .navi samp img{
+        display: none;
+    }
+    .bolum1 .navbar li {
+        margin-left: 8px;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bolum1 .navbar li a:hover {
+        display: block;
+        padding: 5px 10px;
+        border-radius: 10px;
+        background-color: rgba(63, 62, 62, 0.445);
+    }
+    .bolum1 .navbar-brand {
+        margin-left: 15px;
+    }
+}
+@media(max-width:650px){
+    #projeler .max-width .proje .card {
+        width: 100% ;
+       margin-bottom: 25px;
+      
+    }
+    #projeler .max-width{
+        padding: 0 auto;
+    }
+    #deneyim .max-width .deney .bir{
+        width: 100% ;
+    
+    }
+    #iletisim .max-width .deney .bir{
+        width: 100%;
+        margin-top: 20px;
+        display:flex;
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    
+    }
+  
+}
+.deneyim,
+.ozhakkimda,
+.iletisim,
+#projeler
+ {
+opacity: 0;
+}

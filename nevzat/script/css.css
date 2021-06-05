@@ -1,0 +1,327 @@
+                @charset "utf-8";
+                /* CSS Document */
+                
+                * {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                }
+                
+                .wrapper {
+                    width: 100%;
+                }
+                
+                header {
+                    align-self: flex-start;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                }
+                
+                header .logo1 h1 {
+                    display: block;
+                    font-size: 60px;
+                    color: black;
+                    text-align: center;
+                    font-family: 'Passion One', cursive;
+                    margin: 0;
+                    padding: 0;
+                }
+                
+                .banner .menu div {
+                    background: #646464;
+                    color: #F47582;
+                    font-size: 25px;
+                    padding: 10px;
+                    cursor: pointer;
+                    display: none;
+                }
+                
+                .banner .menu ul {
+                    margin: 0;
+                    padding: 0;
+                    list-style: none;
+                    position: relative;
+                    background: #f0f0f0;
+                }
+                
+                .banner .menu ul li {
+                    display: block;
+                    display: inline-block;
+                    text-align: center;
+                }
+                
+                .banner .menu ul li.ana {
+                    background-color: #F47582;
+                }
+                
+                .banner .menu ul li a {
+                    font-size: 18px;
+                    text-decoration: none;
+                    color: black;
+                    display: block;
+                    font-weight: 800;
+                    width: 200px;
+                    height: 40px;
+                    font-family: 'Courier New', Courier, monospace;
+                    text-align: center;
+                }
+                
+                .banner .menu ul li a:hover {
+                    background-color: #F47582;
+                    color: white;
+                    transition: color 0.8s ease-in-out;
+                    transition: background-color 0.8s ease-in-out;
+                    text-align: center;
+                }
+                
+                @media(max-width:1100px) {
+                    .banner .menu div {
+                        display: flex;
+                        height: 100%;
+                    }
+                    .menu ul {
+                        display: none;
+                        position: static;
+                        background: #F47582;
+                    }
+                    .menu ul li {
+                        display: block;
+                        text-align: center;
+                    }
+                    .banner .menu ul {
+                        display: flex;
+                        flex-direction: column;
+                        flex-wrap: wrap-reverse;
+                        justify-content: flex-start;
+                        align-items: center;
+                    }
+                    .banner .menu ul li.ana {
+                        background-color: #f0f0f0;
+                        ;
+                    }
+                }
+                
+                .slayd {
+                    width: 100%;
+                    background-size: cover!important;
+                }
+                /*-----Bolum 2 baslangic ----*/
+                
+                .bolum2 {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .bolum2 h2 {
+                    text-align: center;
+                    padding: 50px 0;
+                    color: #F47582;
+                    font-size: 35px;
+                    line-height: 150%;
+                }
+                
+                .bolum2 .row {
+                    justify-content: center;
+                }
+                
+                .bolum2 .row .foto {
+                    margin: 8px;
+                }
+                
+                .bolum2 .row .foto img {
+                    margin-top: 15px;
+                    image-orientation: flip;
+                }
+                
+                .bolum2 .row .foto h5 {
+                    color: #020202!important;
+                    font-size: 35px;
+                }
+                
+                .bolum2 .row .foto p {
+                    font-size: 15px;
+                }
+                /*-----Bolum 3 baslangic ----*/
+                
+                .bolum3 {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .bolum3 h2 {
+                    text-align: center;
+                    padding: 50px 0;
+                    color: #F47582;
+                    font-size: 35px;
+                    line-height: 150%;
+                }
+                
+                .bolum3 .row {
+                    align-items: stretch;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                }
+                
+                .bolum3 .row .foto {
+                    margin: 8px;
+                }
+                
+                .bolum3 .row .foto img {
+                    margin-top: 15px;
+                }
+                
+                .bolum3 .row .foto h5 {
+                    color: #020202!important;
+                    font-size: 25px;
+                }
+                
+                .bolum4 {
+                    width: 100%;
+                    height: 100%;
+                    background-image: url("../gorsel/1/bolum4.jpg");
+                    margin: 0;
+                    padding: 0;
+                    background-repeat: no-repeat;
+                    background-attachment: fixed;
+                    background-size: cover;
+                }
+                
+                .bolum4 h2 {
+                    text-align: center;
+                    padding: 50px 0;
+                    color: #F47582;
+                    font-size: 35px;
+                }
+                
+                .bolum4 p {
+                    text-align: center;
+                    color: rgb(44, 14, 14);
+                    font-size: 25px;
+                    margin: 50px 150px;
+                    padding-bottom: 100px;
+                    font-family: 'Fira Sans Condensed', sans-serif;
+                    font-weight: 700;
+                    font-style: italic;
+                }
+                
+                .bolum5 {
+                    width: 100%;
+                    height: 100%;
+                }
+                
+                .bolum5 .form button {
+                    margin-bottom: 40px;
+                }
+                
+                .bolum5 .form {
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: center;
+                    align-items: center;
+                }
+                
+                .bolum5 .form .forma {
+                    width: 70%;
+                }
+                
+                .bolum6 {
+                    height: 100%;
+                    width: 100%;
+                    background-image: url("../gorsel/1/footer.png");
+                    padding-bottom: 70px;
+                    background-repeat: no-repeat;
+                    background-size: cover;
+                    background-attachment: fixed;
+                    background-position: 30%;
+                    padding-top: 200px;
+                }
+                
+                .bolum6 .row {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                }
+                
+                .bolum6 .container h3 {
+                    margin: 5px 0;
+                    font-size: 25px;
+                    font-weight: 800;
+                    text-shadow: #F47582;
+                    font-style: italic;
+                }
+                
+                .bolum6 .container p {
+                    margin: 0;
+                    font-size: 15px;
+                    font-weight: 600;
+                    text-shadow: #F47582;
+                    font-style: italic;
+                }
+                
+                .bolum6 .container .sosyal {
+                    display: block;
+                }
+                
+                .bolum6 .container .sosyal ul {
+                    position: relative;
+                    display: block;
+                }
+                
+                .bolum6 .container .sosyal ul li {
+                    position: relative;
+                    display: block;
+                    text-decoration: none;
+                    float: left;
+                }
+                
+                .bolum6 .container .sosyal ul li a {
+                    display: block;
+                    text-align: center;
+                    width: 45px;
+                    height: 45px;
+                    text-decoration: none;
+                }
+                
+                .bolum6 .container .sosyal ul li a i {
+                    font-size: 35px;
+                    text-decoration: none;
+                }
+                
+                .bolum6 .container .iletisim {
+                    display: block;
+                }
+                
+                .bolum6 .container .iletisim ul {
+                    position: relative;
+                    display: block;
+                }
+                
+                .bolum6 .container .iletisim ul li {
+                    position: relative;
+                    display: block;
+                    text-decoration: none;
+                }
+                
+                .bolum6 .container .iletisim ul li i {
+                    font-size: 20px;
+                    display: block;
+                    text-decoration: none;
+                    font-weight: 700;
+                    text-shadow: #F47582;
+                    margin: 10px 0;
+                }
+                
+                .bolum6 .container .hak {
+                    display: block;
+                }
+                
+                .bolum2,
+                .bolum3,
+                .bolum4,
+                .bolum5,
+                footer {
+                    opacity: 0;
+                }
